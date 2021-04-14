@@ -102,7 +102,7 @@ print(my_repeat)
 # ->, ->> :Rightwards assignment
 
 
-if(my_name %in% my_name_string){
+if(my_name %in% c("amos", "mathias", "anthony")){
   print(my_name)
   
   if ("name" %in% c("amos", "mathias", "anthony")) {
